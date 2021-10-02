@@ -118,11 +118,12 @@ main {
 .imagem {
     margin: auto;
     display: block;
+    width: 100%;
 }
 
 #video {
     border: solid #005306;
-    border-width: 25px 53px 25px 53px;
+    border-width: 28px 53px 28px 53px;
 }
 
 #video > iframe {
@@ -141,12 +142,14 @@ main {
     float: left;
     width: 50%;
     font-family: 'Asap', sans-serif;
+    margin: 0px 0px 15px 0px;
 }
 
 .versao2 {
     float: right;
     width: 50%;
     font-family: 'Asap', sans-serif;
+    margin: 0px 0px 15px 0px;
 }
 
 .versao1 > ul{
@@ -170,7 +173,6 @@ main {
     font-size: 18px;
     text-align: justify;
     text-indent: 5%;
-    display: inline-block;
 }
 
 footer {
