@@ -33,7 +33,7 @@ header {
     width: 100%;
 }
 
-.tecnologia {
+.titulo-site {
     min-width: 320px;
     max-width: 800px;
     height: 200px;
@@ -42,14 +42,14 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.tecnologia > h1 {
+.titulo-site > h1 {
     text-transform: uppercase;
     color: white;
     font-size: 2em;
     padding-top: 50px;
 }
 
-.tecnologia > p {
+.titulo-site > p {
     color: #dadada;
     margin: 0;
     padding-top: 30px;
@@ -138,21 +138,21 @@ main {
     margin-top: 15px;
 }
 
-.versao1 {
+#versao1 {
     float: left;
     width: 50%;
     font-family: 'Asap', sans-serif;
     margin: 0px 0px 15px 0px;
 }
 
-.versao2 {
+#versao2 {
     float: right;
     width: 50%;
     font-family: 'Asap', sans-serif;
     margin: 0px 0px 15px 0px;
 }
 
-.versao1 > ul{
+#versao1 > ul{
     padding-left: 40px;
 }
 
