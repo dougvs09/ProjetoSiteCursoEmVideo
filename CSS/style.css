@@ -7,9 +7,11 @@
     src: url(../fonts/idroid.otf);
 }
 
-ul, li {
+ul, li, a{
     display: inline-block;
     list-style: none;
+    text-decoration: none;
+    margin: 0;
 }
 
 body {
@@ -21,6 +23,7 @@ body {
 
 header {
     background-image: linear-gradient(#32c90c, #005706);
+    width: 100%;
 }
 
 .tecnologia {
@@ -31,7 +34,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-#texto-header {
+#titulo-site {
     text-transform: uppercase;
     color: white;
     font-size: 2em;
@@ -39,19 +42,28 @@ header {
     margin: 0;
 }
 
-#paragrafo-header {
+#subtitulo-site {
     color: #dadada;
     margin: 0;
     padding-top: 30px;
 }
 
 .menu {
-    background-color: #003a043a;
+    background-color: #005306;
+    height: 50px;
 }
-.menu ul li {
+
+.menu ul li a{
     color: #fafafa;
     margin-left: 10px;
     font-family: 'Asap', sans-serif;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 8px;
+}
+
+.menu li a:hover {
+    background-color: #279c0a;
 }
 
 main {
@@ -59,13 +71,14 @@ main {
     height: 100%;
     background-color: white;
     margin: auto;
+    border-radius: 10px;
 }
 
-section {
+article {
     padding: 15px;
 }
 
-section h1{
+#titulo-artigo {
     margin: 0;
     font-family: 'droid';
     font-size: 36px;
@@ -73,7 +86,7 @@ section h1{
     padding: 10px 0px 0px 10px;
 }
 
-section h2 {
+.subtitulo-artigo {
     padding: 5px 0px 5px 10px;
     font-family: 'droid';
     font-size: 24px;
@@ -81,7 +94,7 @@ section h2 {
     background-image: linear-gradient(to right, rgb(135, 231, 135), rgb(232, 253, 232));
 }
 
-section p {
+.paragrafo-artigo {
     font-family: 'Asap', sans-serif;
     font-size: 18px;
     text-align: justify;
@@ -93,7 +106,57 @@ section p {
     display: block;
 }
 
-span {
+.negrito {
     color: #007007;
     font-weight: bold;
+}
+
+#video {
+    border: solid #005306;
+    border-width: 25px 53px 25px 53px;
+}
+
+#video iframe {
+    margin: auto;
+    display: block;
+}
+
+.extra {
+    background-color: #0dfc5580;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.extra h3 {
+    background-color: #399e54;
+    height: 35px;
+    margin: 0;
+    padding: 11px 0px 0px 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #fafafa;
+}
+
+.extra p{
+    padding: 0px 10px 0px 10px;
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+footer {
+    background-color: #005306;
+    color: #fafafa;
+    margin-top: 15px;
+    height: 30px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Asap', sans-serif;
 }
