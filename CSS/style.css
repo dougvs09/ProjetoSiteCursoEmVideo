@@ -49,6 +49,7 @@ header {
     text-transform: uppercase;
     color: white;
     font-size: 3em;
+    font-weight: normal;
     padding-top: 50px;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -108,6 +109,10 @@ main a:hover {
     color: var(--cor02);
 }
 
+.externo::after {
+    content: '\1F517';
+}
+
 .principal {
     padding: 15px;
 }
@@ -160,22 +165,10 @@ main a:hover {
     margin-top: 15px;
 }
 
-#versao1 {
-    float: left;
-    width: 50%;
-    font-family: 'Asap', sans-serif;
-    margin: 0px 0px 15px 0px;
-}
-
-#versao2 {
-    float: right;
-    width: 40%;
-    font-family: 'Asap', sans-serif;
-    margin: 0px 0px 15px 0px;
-}
-
-#versao1 > ul{
-    padding-left: 40px;
+.extra > ul {
+    list-style-position: inside;
+    columns: 2;
+    padding: 0px 0px 0px 15px;
 }
 
 .extra > h3 {
@@ -189,7 +182,7 @@ main a:hover {
 }
 
 .extra > p{
-    padding: 0px 10px 15px 10px;
+    padding: 0px 10px 0px 10px;
     margin: 15px 0px 15px 0px;
     font-family: 'Asap', sans-serif;
     font-size: 18px;
